@@ -56,8 +56,11 @@ public class Practical3 {
 
 OUTPUT:-
 
+Multiple Inheritance Using Interfaces
 Printing document...
 Scanning document...
+
+Hybrid Inheritance Using Class and Interface
 Machine started.
 Office printer is printing.
 
