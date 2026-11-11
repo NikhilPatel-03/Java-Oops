@@ -53,3 +53,12 @@ public class Practical3 {
         officePrinter.print();
     }
 }
+
+OUTPUT:-
+
+Printing document...
+Scanning document...
+Machine started.
+Office printer is printing.
+
+
