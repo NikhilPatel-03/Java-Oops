@@ -63,4 +63,13 @@ public class Practical4 {
 
 OUTPUT:-
 
+Method Overloading
+Addition of two numbers: 30
+Addition of three numbers: 60
+Addition of decimal numbers: 31.0
+
+Method Overriding
+Full Time Employee Pay: 30000.0
+Part Time Employee Pay: 15000.0
+
 
