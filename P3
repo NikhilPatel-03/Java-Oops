@@ -1,0 +1,55 @@
+
+interface Printable {
+    void print();
+}
+
+interface Scannable {
+    void scan();
+}
+
+class AllInOnePrinter implements Printable, Scannable {
+
+    @Override
+    public void print() {
+        System.out.println("Printing document...");
+    }
+
+    @Override
+    public void scan() {
+        System.out.println("Scanning document...");
+    }
+}
+
+class Machine {
+    void start() {
+        System.out.println("Machine started.");
+    }
+}
+
+class OfficePrinter extends Machine implements Printable {
+
+    @Override
+    public void print() {
+        System.out.println("Office printer is printing.");
+    }
+}
+
+public class Practical3 {
+
+    public static void main(String[] args) {
+
+        System.out.println("Multiple Inheritance Using Interfaces");
+
+        AllInOnePrinter printer = new AllInOnePrinter();
+        printer.print();
+        printer.scan();
+
+        System.out.println();
+
+        System.out.println("Hybrid Inheritance Using Class and Interface");
+
+        OfficePrinter officePrinter = new OfficePrinter();
+        officePrinter.start();
+        officePrinter.print();
+    }
+}
