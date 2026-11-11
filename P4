@@ -60,3 +60,7 @@ public class Practical4 {
         System.out.println("Part Time Employee Pay: " + emp.calculatePay());
     }
 }
+
+OUTPUT:-
+
+
